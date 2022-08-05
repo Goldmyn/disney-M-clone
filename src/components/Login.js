@@ -11,6 +11,7 @@ const Login = (props) => {
                     additional fee with a Disney+ subscription. As of Q3/26/21, the
                     price of Disney+ and The Disney Bundle will increase by $1.
                 </Description>
+                <CTALogoTwo src="/images/cta-logo-two.png" alt="" />
             </CTA> 
             <BgImage />
         </Content>
@@ -83,7 +84,7 @@ const CTALogoOne = styled.img`
     min-height: 50px;
     max-height: 100px;
     display: block;
-    width: 100;
+    width: 85%;
 
 `; 
 
@@ -108,6 +109,21 @@ const SignUp = styled.a`
 
 const Description = styled.p`
 
+    color : hsla(0,0%, 95,3%,1);
+    font-size: 11px;
+    margin: 0 0 24px;
+    width: 85%;
+    line-height: 1.5;
+    letter-spacing: 1.5px;
+
+`;
+
+const CTALogoTwo = styled.img`
+    max-width: 600px;
+    margin-bottom: 15px;
+    display: inline-block;
+    vertical-align: bottom;
+    width: 85%;
 
 
 `;
