@@ -1,3 +1,9 @@
+HEY VIEWER THIS IS A CLONE TO THE {# DISNEY #} APP. 
+
+This project is currently under construction.
+
+ENJOY.
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
